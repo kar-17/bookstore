@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+    background-image: url(im.jpg);}
+        *{margin: 0px;}
+        header{background-color: rgb(233, 176, 52);
+    justify-items: center;
+padding: 2%;}
+        nav{background-color: rgb(100, 183, 255);
+        display:flex;}
+        nav ul{list-style-type: none; 
+            margin: 0;
+            display: flex;
+            width: 50%;
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+        nav li{align-items: center;
+        justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-left: 10%;
+    height: 40px;
+    font-size: 30px;
+    width: 100%;  
+    
+}
+nav a{color: black;
+text-decoration: none;}
+
+ nav a:hover{background-color: rgb(8, 234, 76);
+color: white;
+z-index: 1;
+cursor: pointer;}
+nav a:active{text-decoration-thickness: 3px;}
+
+#big{
+    background-color: rgb(81, 84, 255);height: 80px;
+margin-left:47% ;border-radius: 8px;padding-top:15px ;
+padding-left: 45%;}
+#side{border: 2px solid black;    
+    display: flex;
+    height: 600px;width: 20%;}
+
+#cont{background-color: white;
+    height: 2200px;
+    margin: 2%;
+    background-color: rgb(251, 233, 208);
+
+    
+}
+#inner{border: 2PX SOLID rgb(255, 255, 255);
+    display: flex; font-size:50px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 230px;
+    background-color: rgb(255, 247, 232);
+    border-radius: 30px;
+    
+}
+
+#boz{background-color: rgb(26, 5, 102);
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+padding-bottom: 18px;
+padding-top: 20px;}
+
+
+#cat{background-color: rgb(255, 255, 255);border: 9px solid black;
+    height: 730px;width: 20%;margin: 6%;overflow: auto;
+border-radius: 10px;}
+
+header {
+     background-image: url("leaves.jpg"); }   
+#cat ul{margin: 0%;
+   margin-top: 4%;
+ overflow: auto; 
+word-wrap: break-word;}  
+#cat li{margin-top: 10%;
+        font-size: 25px;
+    }
+#cat a{background-color: blueviolet;
+text-decoration: none; color: black;}
+#cat a:hover{text-decoration: underline;}
+#cat a:visited{color: rgb(106, 0, 176);}
+#cat a:active{color: red;}
+
+#container{border: 2px solid;
+            display: grid;
+            border-color: rgb(242, 242, 242);
+            gap: 6px 6px;
+            justify-content: center;
+            grid-template-rows: 80px 180px 80px ;
+            grid-template-columns:20% 60% 20%;}
+
+#conim{border: 6px solid rgb(239, 71, 71);
+            background-color: rgb(196, 196, 196);
+            text-align: center;
+            padding: 12px;}
+#imgs{ border: 9px solid black;
+    margin: 0%;
+   margin-top:6%;
+ overflow: auto; 
+word-wrap: break-word;
+height: 975px;
+margin-right: 0%;
+width: 60%;
+justify-content: center;
+justify-items:center ;
+align-items: center;
+border-radius: 10px;
+
+
+}
+#line1, #line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+}
+
+#line1 img, #line2 img {
+    height: 450px;
+    width: 90%; 
+    margin: 1%;
+    margin-left:5%;
+}
+footer{background-color: rgb(255, 120, 120);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+display: flex;
+height: 1150px;
+border-radius: 16px;}
+fieldset{
+border: none;
+font-size: larger;
+height: 170px;}
+#most{margin-left: 2%;
+}
+#most ul{list-style-type: none;}
+
+td img{margin-left: 50%;
+text-align: center;
+align-items: center;
+justify-content: center;}
+td h2{margin-left: 50%;}
+td a{text-decoration: none;color: black;}
+td a:visited{color: rgb(86, 0, 167);}
+td a:hover{color: red;}
+hr{border: 2px dotted black;}
+#sup{border: 2px solid black; display: flex;
+justify-content: center; align-items: center}
+#searchbar {display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            color: white;}
+ #buttons { display: flex;
+            gap: 10px;}
+
+ button { background-color: #000000;
+            border: none;
+            color: rgb(142, 255, 145);
+            padding: 20px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 120px;
+            font-size: larger;}
+
+#inputfield {padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 600px;
+            height: 30px;
+            border: 15px solid rgb(255, 242, 102);
+            border-left: 40px solid yellow;
+            font-size: larger;
+        }
+
+    </style>
+    <script>
+        function done() {             
+            alert("Feedback has been submitted! Thank You!");
+            window.location.href = "fiction.html";
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <header>
+        <div id="boz">
+         <div id="inner">
+            <img src="images.png" alt="Logo ">
+            BOOK <br> STORE <br>
+            </div>
+        </div>
+        
+        
+
+    </header>
+    <nav>
+        <ul>
+            <h2><li><a href="ca3.html">Home</a></li></h2>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div id="searchbar">
+        <div id="buttons">
+            <button class="log" onclick="window.location.href='login.html'">Login</button>
+            <button class="sign" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+        <input type="text" id="inputfield" placeholder="Search...">
+    </div>
+    </div>
+    <div id="cont">
+        <div id="main">
+            <div id="cat">
+                <ul> 
+                        <a href="fiction.html"><li>Fiction</li></a>
+                        <a href="nonfiction.html"><li>Non-Fiction</li></a>
+                        <a href="mystery.html"><li>Mystery/Thriller</li></a>
+                        <a href="fantasy.html"><li>Fantasy</li></a>
+                        <a href="science.html"><li>Science Fiction</li></a>
+                        <a href="biography.html"><li>Biography/Autobiography</li></a>
+                        <a href="self.html"><li>Self-Help</li></a>
+                        <a href="history.html"><li>Historical Fiction</li></a>
+                        <a href="romance.html"><li>Romance</li></a>
+                        <a href="child.html"><li>Children’s Literature</li></a>
+                </ul> 
+
+            </div>
+            <div id="imgs">
+                <div id="line1">
+                    <a href="buy.html"><img src="1.jpg" alt=""></a>
+                    <a href="buy copy.html"><img src="2.jpg" alt=""></a>
+                    <a href="buy copy 2.html"><img src="3.jpg" alt=""></a>
+                </div>
+                <div id="line2">
+                <a href="buy copy 3.html"><img src="4.jpg" alt=""></a>
+                <a href="buy copy 4.html"><img src="5.jpg" alt="" ></a>
+                <a href="buy copy 5.html"><img src="6.jpg" alt=""></a>
+                </div>         
+            </div>
+        </div>
+        <div id="most">
+            <h1 style="color:brown ;"><center>Most Viewed Books</center></h1>
+            <table border="1" width="100%">
+                <tr>
+                    <td width="50%"><a href="buy.html"> 
+                        <img src="1.jpg" alt="Book 1" width= "120px" height="155fconpx"><h2>Book</h2></a>
+                    </td>
+                    <td width="50%"><a href="buy copy.html">
+                        <img src="2.jpg" alt="Book 2" width="120px" height="155px"> <h2>Book</h2></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%"><a href="buy copy 2.html">
+                        <img src="3.jpg" alt="Book 3" width="120px" height="155px"><h2>Book</h2></a>
+                    </td>
+                    <td width="50%"><a href="buy copy 3.html">
+                        <img src="4.jpg" alt="Book 4" width="120px" height="155px"> <h2>Book</h2></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50%"><a href="buy copy 4.html">
+                        <img src="5.jpg" alt="Book 3" width="120px" height="155px"><h2>Book</h2></a>
+                    </td>
+                    <td width="50%"><a href="buy copy 5.html">
+                        <img src="6.jpg" alt="Book 4" width="120px" height="155px"><h2>Book</h2></a>
+                    </td>
+                </tr>
+            </table>
+        </div><br><br>
+        <fieldset>
+            <font style="font-size: larger;">Suggestion Box</font> <br>
+            <textarea placeholder="Write your suggestions or queries here..." rows="8" cols="60"></textarea><br>
+            <button type="submit" onclick="done()" style="height: 60px; width: 150px; color: white;">Submit</button><br><br>
+            <hr><br>
+            Want a specific book?<div id="r"><a href="more.html"><b><i><u>Request Book</u></i></b></a></div>
+        </fieldset>
+        
+    </div>
+    <footer>
+        <h2><center>&copy;Aditya Kumar Sharma. Reg-12415807</center></h2>
+    </footer>
+
+</body>
+</html>
